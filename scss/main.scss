@@ -5,20 +5,14 @@
 
 @charset 'utf-8';
 
-// Import Vendors / Plugins;
-@import "./vendors/_vendors-dir";
-
-// Import Core;
-@import "./core/_core-dir";
-
 // Import Base Styles;
 @import "./base/_base-dir";
 
 // Import Layout;
 @import "./layouts/_layouts-dir";
 
-// Import Components;
+// (Global) Components;
 @import "./components/_components-dir";
 
-// Import Templates;
+// Templates;
 @import "./templates/_templates-dir";
