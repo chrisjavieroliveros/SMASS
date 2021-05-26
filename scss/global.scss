@@ -5,6 +5,9 @@
 
 @charset 'utf-8';
 
+// Import Core;
+@import "./core.scss";
+
 // Import Base Styles;
 @import "./base/_base-dir";
 
