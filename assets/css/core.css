@@ -1,4 +1,298 @@
-/* Core Abstracts */
+/*
+    Theme / Stylesheet Name - Project
+    ---
+    SMASCSS v3.3.0 - Continens Edition
+    Scalable and Modular Architecture for Sassy CSS
+    by Chris Javier Oliveros
+*/
+.bg-Primary {
+  background-color: #3880ff;
+}
+
+.bg-Primary-400 {
+  background-color: tint(getColor(Primary), 20);
+}
+
+.bg-Primary-300 {
+  background-color: tint(getColor(Primary), 40);
+}
+
+.bg-Primary-200 {
+  background-color: tint(getColor(Primary), 60);
+}
+
+.bg-Primary-100 {
+  background-color: tint(getColor(Primary), 80);
+}
+
+.bg-Primary-600 {
+  background-color: shade(getColor(Primary), 20);
+}
+
+.bg-Primary-700 {
+  background-color: shade(getColor(Primary), 40);
+}
+
+.bg-Primary-800 {
+  background-color: shade(getColor(Primary), 60);
+}
+
+.bg-Primary-900 {
+  background-color: shade(getColor(Primary), 80);
+}
+
+.text-Primary {
+  color: #3880ff;
+}
+
+.text-Primary-400 {
+  color: tint(getColor(Primary), 20);
+}
+
+.text-Primary-300 {
+  color: tint(getColor(Primary), 40);
+}
+
+.text-Primary-200 {
+  color: tint(getColor(Primary), 60);
+}
+
+.text-Primary-100 {
+  color: tint(getColor(Primary), 80);
+}
+
+.text-Primary-600 {
+  color: shade(getColor(Primary), 20);
+}
+
+.text-Primary-700 {
+  color: shade(getColor(Primary), 40);
+}
+
+.text-Primary-800 {
+  color: shade(getColor(Primary), 60);
+}
+
+.text-Primary-900 {
+  color: shade(getColor(Primary), 80);
+}
+
+.bg-Secondary {
+  background-color: #0cd1e8;
+}
+
+.bg-Secondary-400 {
+  background-color: tint(getColor(Secondary), 20);
+}
+
+.bg-Secondary-300 {
+  background-color: tint(getColor(Secondary), 40);
+}
+
+.bg-Secondary-200 {
+  background-color: tint(getColor(Secondary), 60);
+}
+
+.bg-Secondary-100 {
+  background-color: tint(getColor(Secondary), 80);
+}
+
+.bg-Secondary-600 {
+  background-color: shade(getColor(Secondary), 20);
+}
+
+.bg-Secondary-700 {
+  background-color: shade(getColor(Secondary), 40);
+}
+
+.bg-Secondary-800 {
+  background-color: shade(getColor(Secondary), 60);
+}
+
+.bg-Secondary-900 {
+  background-color: shade(getColor(Secondary), 80);
+}
+
+.text-Secondary {
+  color: #0cd1e8;
+}
+
+.text-Secondary-400 {
+  color: tint(getColor(Secondary), 20);
+}
+
+.text-Secondary-300 {
+  color: tint(getColor(Secondary), 40);
+}
+
+.text-Secondary-200 {
+  color: tint(getColor(Secondary), 60);
+}
+
+.text-Secondary-100 {
+  color: tint(getColor(Secondary), 80);
+}
+
+.text-Secondary-600 {
+  color: shade(getColor(Secondary), 20);
+}
+
+.text-Secondary-700 {
+  color: shade(getColor(Secondary), 40);
+}
+
+.text-Secondary-800 {
+  color: shade(getColor(Secondary), 60);
+}
+
+.text-Secondary-900 {
+  color: shade(getColor(Secondary), 80);
+}
+
+.bg-Tertiary {
+  background-color: #7044ff;
+}
+
+.bg-Tertiary-400 {
+  background-color: tint(getColor(Tertiary), 20);
+}
+
+.bg-Tertiary-300 {
+  background-color: tint(getColor(Tertiary), 40);
+}
+
+.bg-Tertiary-200 {
+  background-color: tint(getColor(Tertiary), 60);
+}
+
+.bg-Tertiary-100 {
+  background-color: tint(getColor(Tertiary), 80);
+}
+
+.bg-Tertiary-600 {
+  background-color: shade(getColor(Tertiary), 20);
+}
+
+.bg-Tertiary-700 {
+  background-color: shade(getColor(Tertiary), 40);
+}
+
+.bg-Tertiary-800 {
+  background-color: shade(getColor(Tertiary), 60);
+}
+
+.bg-Tertiary-900 {
+  background-color: shade(getColor(Tertiary), 80);
+}
+
+.text-Tertiary {
+  color: #7044ff;
+}
+
+.text-Tertiary-400 {
+  color: tint(getColor(Tertiary), 20);
+}
+
+.text-Tertiary-300 {
+  color: tint(getColor(Tertiary), 40);
+}
+
+.text-Tertiary-200 {
+  color: tint(getColor(Tertiary), 60);
+}
+
+.text-Tertiary-100 {
+  color: tint(getColor(Tertiary), 80);
+}
+
+.text-Tertiary-600 {
+  color: shade(getColor(Tertiary), 20);
+}
+
+.text-Tertiary-700 {
+  color: shade(getColor(Tertiary), 40);
+}
+
+.text-Tertiary-800 {
+  color: shade(getColor(Tertiary), 60);
+}
+
+.text-Tertiary-900 {
+  color: shade(getColor(Tertiary), 80);
+}
+
+.bg-Ash {
+  background-color: #f5f5f5;
+}
+
+.bg-Ash-400 {
+  background-color: tint(getColor(Ash), 20);
+}
+
+.bg-Ash-300 {
+  background-color: tint(getColor(Ash), 40);
+}
+
+.bg-Ash-200 {
+  background-color: tint(getColor(Ash), 60);
+}
+
+.bg-Ash-100 {
+  background-color: tint(getColor(Ash), 80);
+}
+
+.bg-Ash-600 {
+  background-color: shade(getColor(Ash), 20);
+}
+
+.bg-Ash-700 {
+  background-color: shade(getColor(Ash), 40);
+}
+
+.bg-Ash-800 {
+  background-color: shade(getColor(Ash), 60);
+}
+
+.bg-Ash-900 {
+  background-color: shade(getColor(Ash), 80);
+}
+
+.text-Ash {
+  color: #f5f5f5;
+}
+
+.text-Ash-400 {
+  color: tint(getColor(Ash), 20);
+}
+
+.text-Ash-300 {
+  color: tint(getColor(Ash), 40);
+}
+
+.text-Ash-200 {
+  color: tint(getColor(Ash), 60);
+}
+
+.text-Ash-100 {
+  color: tint(getColor(Ash), 80);
+}
+
+.text-Ash-600 {
+  color: shade(getColor(Ash), 20);
+}
+
+.text-Ash-700 {
+  color: shade(getColor(Ash), 40);
+}
+
+.text-Ash-800 {
+  color: shade(getColor(Ash), 60);
+}
+
+.text-Ash-900 {
+  color: shade(getColor(Ash), 80);
+}
+
 select,
 input,
 button,
@@ -11,300 +305,7 @@ textarea {
   margin: 0;
 }
 
-.bg-Primary {
-  background-color: #3880ff;
-}
-
-.bg-Primary-400 {
-  background-color: #6099ff;
-}
-
-.bg-Primary-300 {
-  background-color: #88b3ff;
-}
-
-.bg-Primary-200 {
-  background-color: #afccff;
-}
-
-.bg-Primary-100 {
-  background-color: #d7e6ff;
-}
-
-.bg-Primary-600 {
-  background-color: #2d66cc;
-}
-
-.bg-Primary-700 {
-  background-color: #224d99;
-}
-
-.bg-Primary-800 {
-  background-color: #163366;
-}
-
-.bg-Primary-900 {
-  background-color: #0b1a33;
-}
-
-.text-Primary {
-  color: #3880ff;
-}
-
-.text-Primary-400 {
-  color: #6099ff;
-}
-
-.text-Primary-300 {
-  color: #88b3ff;
-}
-
-.text-Primary-200 {
-  color: #afccff;
-}
-
-.text-Primary-100 {
-  color: #d7e6ff;
-}
-
-.text-Primary-600 {
-  color: #2d66cc;
-}
-
-.text-Primary-700 {
-  color: #224d99;
-}
-
-.text-Primary-800 {
-  color: #163366;
-}
-
-.text-Primary-900 {
-  color: #0b1a33;
-}
-
-.bg-Secondary {
-  background-color: #0cd1e8;
-}
-
-.bg-Secondary-400 {
-  background-color: #3ddaed;
-}
-
-.bg-Secondary-300 {
-  background-color: #6de3f1;
-}
-
-.bg-Secondary-200 {
-  background-color: #9eedf6;
-}
-
-.bg-Secondary-100 {
-  background-color: #cef6fa;
-}
-
-.bg-Secondary-600 {
-  background-color: #0aa7ba;
-}
-
-.bg-Secondary-700 {
-  background-color: #077d8b;
-}
-
-.bg-Secondary-800 {
-  background-color: #05545d;
-}
-
-.bg-Secondary-900 {
-  background-color: #022a2e;
-}
-
-.text-Secondary {
-  color: #0cd1e8;
-}
-
-.text-Secondary-400 {
-  color: #3ddaed;
-}
-
-.text-Secondary-300 {
-  color: #6de3f1;
-}
-
-.text-Secondary-200 {
-  color: #9eedf6;
-}
-
-.text-Secondary-100 {
-  color: #cef6fa;
-}
-
-.text-Secondary-600 {
-  color: #0aa7ba;
-}
-
-.text-Secondary-700 {
-  color: #077d8b;
-}
-
-.text-Secondary-800 {
-  color: #05545d;
-}
-
-.text-Secondary-900 {
-  color: #022a2e;
-}
-
-.bg-Tertiary {
-  background-color: #7044ff;
-}
-
-.bg-Tertiary-400 {
-  background-color: #8d69ff;
-}
-
-.bg-Tertiary-300 {
-  background-color: #a98fff;
-}
-
-.bg-Tertiary-200 {
-  background-color: #c6b4ff;
-}
-
-.bg-Tertiary-100 {
-  background-color: #e2daff;
-}
-
-.bg-Tertiary-600 {
-  background-color: #5a36cc;
-}
-
-.bg-Tertiary-700 {
-  background-color: #432999;
-}
-
-.bg-Tertiary-800 {
-  background-color: #2d1b66;
-}
-
-.bg-Tertiary-900 {
-  background-color: #160e33;
-}
-
-.text-Tertiary {
-  color: #7044ff;
-}
-
-.text-Tertiary-400 {
-  color: #8d69ff;
-}
-
-.text-Tertiary-300 {
-  color: #a98fff;
-}
-
-.text-Tertiary-200 {
-  color: #c6b4ff;
-}
-
-.text-Tertiary-100 {
-  color: #e2daff;
-}
-
-.text-Tertiary-600 {
-  color: #5a36cc;
-}
-
-.text-Tertiary-700 {
-  color: #432999;
-}
-
-.text-Tertiary-800 {
-  color: #2d1b66;
-}
-
-.text-Tertiary-900 {
-  color: #160e33;
-}
-
-.bg-Ash {
-  background-color: #f5f5f5;
-}
-
-.bg-Ash-400 {
-  background-color: #f7f7f7;
-}
-
-.bg-Ash-300 {
-  background-color: #f9f9f9;
-}
-
-.bg-Ash-200 {
-  background-color: #fbfbfb;
-}
-
-.bg-Ash-100 {
-  background-color: #fdfdfd;
-}
-
-.bg-Ash-600 {
-  background-color: #c4c4c4;
-}
-
-.bg-Ash-700 {
-  background-color: #939393;
-}
-
-.bg-Ash-800 {
-  background-color: #626262;
-}
-
-.bg-Ash-900 {
-  background-color: #313131;
-}
-
-.text-Ash {
-  color: #f5f5f5;
-}
-
-.text-Ash-400 {
-  color: #f7f7f7;
-}
-
-.text-Ash-300 {
-  color: #f9f9f9;
-}
-
-.text-Ash-200 {
-  color: #fbfbfb;
-}
-
-.text-Ash-100 {
-  color: #fdfdfd;
-}
-
-.text-Ash-600 {
-  color: #c4c4c4;
-}
-
-.text-Ash-700 {
-  color: #939393;
-}
-
-.text-Ash-800 {
-  color: #626262;
-}
-
-.text-Ash-900 {
-  color: #313131;
-}
-
-/* Core Components */
-/* 
-    Set default global styles for: 
-    Navigation <nav></nav>
-*/
-/* Base Element Resets */ /*  Global Resets */
+/*  Global Resets */
 * {
   box-sizing: border-box;
 }
@@ -457,6 +458,10 @@ p {
   font-size: 1em;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Headings */
 h1.uppercase,
 h2.uppercase,
@@ -503,7 +508,7 @@ h6 {
   margin-bottom: 24px;
 }
 
-/* 
+/* Base Element Resets */ /* 
     Set default global styles for button elements:
     <button></button>, input[type="submit"], btn btn-submit
 */
@@ -556,94 +561,66 @@ ol {
     Set default global style for table element:
     e.g. <table></table>, .table
 */
-.masthead {
-  position: relative;
-  display: flex;
-  align-items: center;
-  padding: 64px;
-  padding-bottom: 0 !important;
-  background-color: #3880ff;
-  overflow: hidden;
-}
-.masthead .heading-group {
-  position: relative;
-  padding-right: 16px;
-  flex-grow: 1;
-  z-index: 2;
-  color: #3880ff;
-}
-.masthead .heading-group h1 {
-  margin-bottom: 8px;
-}
-.masthead .preview-wrapper {
-  position: relative;
-  padding-left: 8px;
-  height: 320px;
-  width: 460px;
-  flex-shrink: 0;
-  z-index: 1;
-}
-.masthead .preview-wrapper [class*=preview-] {
-  position: absolute;
-  border: 8px solid var(--Light);
-  box-shadow: 0 0 15px rgba(104, 104, 104, 0.2);
-}
-.masthead .preview-wrapper [class*=preview-] img {
+/*
+  This file is used to contain all component imports.
+  Files inside this folder can contain specific element styles and layout. 
+*/
+/* 
+    Set wrapper properties:
+    e.g. .wrapper, .main-wrapper
+*/
+.global-wrapper {
   width: 100%;
-  height: auto;
-  object-fit: contain;
-  object-position: top center;
-}
-.masthead .preview-wrapper .preview-1 {
-  top: 0;
-  right: 0;
-  z-index: 2;
-  height: 100%;
-  width: 100%;
-}
-.masthead .preview-wrapper .preview-2 {
-  left: -180px;
-  bottom: 0;
-  width: 240px;
-  height: 260px;
-  z-index: 1;
-}
-@media (max-width: 1200px) {
-  .masthead {
-    padding: 56px;
-  }
-  .masthead .preview-wrapper {
-    width: 400px;
-  }
-  .masthead .preview-wrapper .preview-2 {
-    left: -130px;
-  }
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 32px;
 }
 @media (max-width: 992px) {
-  .masthead {
-    padding: 48px;
-  }
-  .masthead .preview-wrapper {
-    width: 380px;
-  }
-  .masthead .preview-wrapper .preview-2 {
-    display: none;
+  .global-wrapper {
+    padding: 0 24px;
   }
 }
 @media (max-width: 768px) {
-  .masthead {
-    height: 300px;
-    padding: 40px;
-  }
-  .masthead .heading-group {
-    padding-right: 0;
-  }
-  .masthead .preview-wrapper {
-    display: none;
+  .global-wrapper {
+    padding: 0 24px;
   }
 }
 @media (max-width: 576px) {
-  .masthead {
-    padding: 32px;
+  .global-wrapper {
+    padding: 0 16px;
+  }
+}
+.global-wrapper.section-padding {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+@media (max-width: 1200px) {
+  .global-wrapper.section-padding {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+}
+@media (max-width: 992px) {
+  .global-wrapper.section-padding {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+@media (max-width: 768px) {
+  .global-wrapper.section-padding {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .global-wrapper.section-padding {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+@media (max-width: 376px) {
+  .global-wrapper.section-padding {
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 }
