@@ -7,6 +7,11 @@ body {
 
 p {
   font-size: 1em;
+  margin: 1em 0;
+
+  &.lead {
+    font-size: 18px;
+  }
 }
 
 /* Headings */
