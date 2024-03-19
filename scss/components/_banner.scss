@@ -1,0 +1,9 @@
+.banner {
+  background-color: getVarColor(Primary);
+  color: getVarColor(White);
+  padding: 40px 0;
+
+  &.banner-ovr {
+    --el-reverie-color-Primary: #00eaff;
+  }
+}

@@ -5,6 +5,9 @@
 */
 @charset 'utf-8';
 
+// Config
+@import "./config.scss";
+
 // Core
 @import "./core/_core-dir";
 
@@ -13,12 +16,3 @@
 
 // Layouts
 @import "./layouts/_layouts-dir";
-
-// Pages
-@import "./pages/_pages-dir";
-
-// Themes
-@import "./themes/_themes-dir";
-
-// Vendors;
-@import "./vendors/_vendors-dir";

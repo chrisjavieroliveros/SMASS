@@ -1,0 +1,25 @@
+:root {
+  --el-reverie-color-Primary: #595d88;
+  --el-reverie-color-Secondary: #ffda85;
+  --el-reverie-color-Accent: #f76c5e;
+  --el-reverie-color-White: #ffffff;
+  --el-reverie-color-Black: #272727;
+  --el-reverie-color-Light-100: #fafafa;
+  --el-reverie-color-Light-200: #f5f5f5;
+  --el-reverie-color-Light-300: #ebebeb;
+  --el-reverie-color-Light-400: #e0e0e0;
+  --el-reverie-color-Light-500: #d6d6d6;
+  --el-reverie-color-Light-600: #cccccc;
+  --el-reverie-color-Light-700: #c2c2c2;
+  --el-reverie-color-Light-800: #b8b8b8;
+  --el-reverie-color-Light-900: #adadad;
+  --el-reverie-color-Dark-100: #a1a1a1;
+  --el-reverie-color-Dark-200: #8e8e8e;
+  --el-reverie-color-Dark-300: #7c7c7c;
+  --el-reverie-color-Dark-400: #6a6a6a;
+  --el-reverie-color-Dark-500: #585858;
+  --el-reverie-color-Dark-600: #464646;
+  --el-reverie-color-Dark-700: #343434;
+  --el-reverie-color-Dark-800: #222222;
+  --el-reverie-color-Dark-900: #101010;
+}
