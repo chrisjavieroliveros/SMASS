@@ -344,6 +344,14 @@ ol {
     Set default global styles for: 
     Navigation <nav></nav>
 */
+.banner {
+  background-color: var(--el-reverie-color-Primary);
+  color: var(--el-reverie-color-White);
+}
+.banner.banner-vr {
+  background-color: var(--el-reverie-color-Accent);
+}
+
 .global-wrapper {
   width: 100%;
   max-width: 1200px;

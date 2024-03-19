@@ -1,0 +1,8 @@
+.banner {
+  background-color: getVarColor(Primary);
+  color: getVarColor(White);
+
+  &.banner-vr {
+    background-color: getVarColor(Accent);
+  }
+}

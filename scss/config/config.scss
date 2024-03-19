@@ -39,6 +39,8 @@ $colors: (
 
 // Define the getVarColor function
 // Usage: getVarColor('Primary', 0.5)
-@function getVarColor($colorName) {
-  @return var(--el-reverie-color-#{$colorName});
-}
+// @function getVarColor($colorName) {
+//   @return var(--el-reverie-color-#{$colorName});
+// }
+
+@function getVarColor($coloName, )
