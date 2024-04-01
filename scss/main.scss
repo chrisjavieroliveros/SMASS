@@ -1,12 +1,15 @@
 /*
-    SMASCSS v4.1.2 (Powered by ChatGPT4)
+    SMASCSS (Elementor Edition) v5.3.1
     Scalable and Modular Architecture for Sassy CSS
-    by Chris Javier Oliveros
+    by Chris Javier Oliveros, Jake Oliveros Chico
 */
 @charset 'utf-8';
 
 // Core
 @import "./core/_core-dir";
+
+// Base;
+@import "./base/_base-dir";
 
 // Components
 @import "./components/_components-dir";

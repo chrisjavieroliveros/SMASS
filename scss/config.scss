@@ -58,9 +58,22 @@ $colors: (
   "Dark-900": #101010
 );
 
-// Generate CSS Variables based on the colors map;
+$fonts: (
+  "Heading": "Poppins, sans-serif",
+  "Body": "Poppins, sans-serif",
+);
+
+// -------- Generate all maps in :root -------- //
+
+/* Colors */
 :root {
   @each $colorName, $color in $colors {
     --reverie-color-#{$colorName}: #{"#{$color}"};
+  }
+}
+/* Fonts */
+:root {
+  @each $fontName, $font in $fonts {
+    --reverie-font-#{$fontName}: #{"#{$font}"};
   }
 }

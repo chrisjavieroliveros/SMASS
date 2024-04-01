@@ -1,61 +1,10 @@
 /*
-    SMASCSS v4.1.2 (Powered by ChatGPT4)
+    SMASCSS (Elementor Edition) v5.3.1
     Scalable and Modular Architecture for Sassy CSS
-    by Chris Javier Oliveros
+    by Chris Javier Oliveros, Jake Oliveros Chico
 */
-input:focus,
-input:active {
+input:focus, input:active {
   outline: none;
-}
-
-:root {
-  --reverie-color-Primary: #595d88;
-  --reverie-color-Primary-Tint: #6c70a3;
-  --reverie-color-Primary-Shade: #4b4f73;
-  --reverie-color-Primary-Contrast: #ffffff;
-  --reverie-color-Secondary: #ffda85;
-  --reverie-color-Secondary-Tint: #ffe29e;
-  --reverie-color-Secondary-Shade: #e6c96b;
-  --reverie-color-Secondary-Contrast: #272727;
-  --reverie-color-Danger: #ff0000;
-  --reverie-color-Danger-Tint: #ff3333;
-  --reverie-color-Danger-Shade: #cc0000;
-  --reverie-color-Danger-Contrast: #ffffff;
-  --reverie-color-Warning: #ffcc00;
-  --reverie-color-Warning-Tint: #ffdd33;
-  --reverie-color-Warning-Shade: #ccaa00;
-  --reverie-color-Warning-Contrast: #000000;
-  --reverie-color-Success: #00cc00;
-  --reverie-color-Success-Tint: #00dd33;
-  --reverie-color-Success-Shade: #00aa00;
-  --reverie-color-Success-Contrast: #ffffff;
-  --reverie-color-Info: #0099ff;
-  --reverie-color-Info-Tint: #00aaff;
-  --reverie-color-Info-Shade: #0077cc;
-  --reverie-color-Info-Contrast: #ffffff;
-  --reverie-color-Black: #272727;
-  --reverie-color-White: #ffffff;
-  --reverie-color-Light-100: #fafafa;
-  --reverie-color-Light-200: #f5f5f5;
-  --reverie-color-Light-300: #ebebeb;
-  --reverie-color-Light-400: #e0e0e0;
-  --reverie-color-Light-500: #d6d6d6;
-  --reverie-color-Light-600: #cccccc;
-  --reverie-color-Light-700: #c2c2c2;
-  --reverie-color-Light-800: #b8b8b8;
-  --reverie-color-Light-900: #adadad;
-  --reverie-color-Dark-100: #a1a1a1;
-  --reverie-color-Dark-200: #8e8e8e;
-  --reverie-color-Dark-300: #7c7c7c;
-  --reverie-color-Dark-400: #6a6a6a;
-  --reverie-color-Dark-500: #585858;
-  --reverie-color-Dark-600: #464646;
-  --reverie-color-Dark-700: #343434;
-  --reverie-color-Dark-800: #222222;
-  --reverie-color-Dark-900: #101010;
-
-  --reverie-heading-font: "Poppins", sans-serif;
-  --reverie-body-font: "Open Sans", sans-serif;
 }
 
 *,
@@ -229,7 +178,7 @@ input {
   text-transform: none;
 }
 
-input[type="search"] {
+input[type=search] {
   -webkit-appearance: textfield;
   -moz-appearance: textfield;
   appearance: textfield;
@@ -266,6 +215,7 @@ html,
 body {
   font-size: 16px;
   line-height: 1.2;
+  font-family: var(--reverie-font-Body);
 }
 
 p {
@@ -273,6 +223,14 @@ p {
 }
 
 /* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--reverie-font-Heading);
+}
 h1.uppercase,
 h2.uppercase,
 h3.uppercase,
@@ -324,13 +282,12 @@ h6 {
 */
 .btn {
   cursor: pointer;
+  display: inline-block;
 }
-.btn:disabled,
-.disabled.btn {
+.btn:disabled, .disabled.btn {
   cursor: not-allowed;
 }
-.btn:active,
-.btn:focus {
+.btn:active, .btn:focus {
   outline: none;
 }
 
@@ -345,6 +302,55 @@ h6 {
 }
 .btn.btn-primary:hover {
   background-color: var(--reverie-color-Primary-Shade);
+}
+.btn.btn-secondary {
+  background-color: var(--reverie-color-Secondary);
+  color: var(--reverie-color-Secondary-Contrast);
+}
+.btn.btn-secondary:hover {
+  background-color: var(--reverie-color-Secondary-Shade);
+}
+.btn.btn-danger {
+  background-color: var(--reverie-color-Danger);
+  color: var(--reverie-color-Danger-Contrast);
+}
+.btn.btn-danger:hover {
+  background-color: var(--reverie-color-Danger-Shade);
+}
+.btn.btn-warning {
+  background-color: var(--reverie-color-Warning);
+  color: var(--reverie-color-Warning-Contrast);
+}
+.btn.btn-warning:hover {
+  background-color: var(--reverie-color-Warning-Shade);
+}
+.btn.btn-success {
+  background-color: var(--reverie-color-Success);
+  color: var(--reverie-color-Success-Contrast);
+}
+.btn.btn-success:hover {
+  background-color: var(--reverie-color-Success-Shade);
+}
+.btn.btn-info {
+  background-color: var(--reverie-color-Info);
+  color: var(--reverie-color-Info-Contrast);
+}
+.btn.btn-info:hover {
+  background-color: var(--reverie-color-Info-Shade);
+}
+.btn.btn-light {
+  background-color: var(--reverie-color-Light-100);
+  color: var(--reverie-color-Dark-900);
+}
+.btn.btn-light:hover {
+  background-color: var(--reverie-color-Light-200);
+}
+.btn.btn-dark {
+  background-color: var(--reverie-color-Dark-500);
+  color: var(--reverie-color-Light-100);
+}
+.btn.btn-dark:hover {
+  background-color: var(--reverie-color-Dark-600);
 }
 
 /* 

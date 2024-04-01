@@ -1,0 +1,98 @@
+/* 
+    Set default global styles for button elements:
+    <button></button>, input[type="submit"], btn btn-submit
+*/
+
+%button-default {
+  cursor: pointer;
+  display: inline-block;
+
+  &:disabled,
+  &.disabled {
+    cursor: not-allowed;
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn {
+  @extend %button-default;
+  font-size: 1em;
+  padding: 12px 16px;
+  border-radius: 3px;
+
+  &.btn-primary {
+    background-color: getColor(Primary);
+    color: getColor(Primary-Contrast);
+
+    &:hover {
+      background-color: getColor(Primary-Shade);
+    }
+  }
+
+  &.btn-secondary {
+    background-color: getColor(Secondary);
+    color: getColor(Secondary-Contrast);
+
+    &:hover {
+      background-color: getColor(Secondary-Shade);
+    }
+  }
+
+  &.btn-danger {
+    background-color: getColor(Danger);
+    color: getColor(Danger-Contrast);
+
+    &:hover {
+      background-color: getColor(Danger-Shade);
+    }
+  }
+
+  &.btn-warning {
+    background-color: getColor(Warning);
+    color: getColor(Warning-Contrast);
+
+    &:hover {
+      background-color: getColor(Warning-Shade);
+    }
+  }
+
+  &.btn-success {
+    background-color: getColor(Success);
+    color: getColor(Success-Contrast);
+
+    &:hover {
+      background-color: getColor(Success-Shade);
+    }
+  }
+
+  &.btn-info {
+    background-color: getColor(Info);
+    color: getColor(Info-Contrast);
+
+    &:hover {
+      background-color: getColor(Info-Shade);
+    }
+  }
+
+  &.btn-light {
+    background-color: getColor(Light-100);
+    color: getColor(Dark-900);
+
+    &:hover {
+      background-color: getColor(Light-200);
+    }
+  }
+
+  &.btn-dark {
+    background-color: getColor(Dark-500);
+    color: getColor(Light-100);
+
+    &:hover {
+      background-color: getColor(Dark-600);
+    }
+  }
+}
