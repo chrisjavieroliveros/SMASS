@@ -32,7 +32,8 @@ $colors: (
   "Info-Contrast": #ffffff,
 
   // Neutrals;
-  "Black": #272727,
+  "Body": #272727,
+  "Text": #272727,
   "White": #ffffff,
 
   // Light;
@@ -59,8 +60,16 @@ $colors: (
 );
 
 $fonts: (
-  "Heading": "Poppins, sans-serif",
-  "Body": "Poppins, sans-serif",
+  "heading": "Arial, sans-serif",
+  "body": "Arial, sans-serif",
+  "heading-weight": 700,
+  "heading-weight-light": 100,
+  "body-weight": 400,
+);
+
+$typography: (
+  "line-height": 1.2,
+  "font-size": 16px,
 );
 
 // -------- Generate all maps in :root -------- //

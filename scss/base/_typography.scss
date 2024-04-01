@@ -1,9 +1,12 @@
 /* General Typography Rules */
 html,
 body {
-  font-size: 16px;
-  line-height: 1.2;
-  font-family: var(--reverie-font-Body);
+  font-size: var(--reverie-typography-font-size);
+  line-height: var(--reverie-typography-line-height);
+  line-height: var(--reverie-typography-lh);
+  font-family: var(--reverie-font-body);
+  font-weight: var(--reverie-font-body-weight);
+  color: getColor(Body);
 }
 
 p {
@@ -17,14 +20,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--reverie-font-Heading);
+  font-family: var(--reverie-font-heading);
+  font-weight: var(--reverie-font-heading-weight);
 
   &.uppercase {
     text-transform: uppercase;
   }
 
   &.light {
-    font-weight: 100;
+    font-weight: var(--reverie-font-heading-weight-light);
   }
 }
 
