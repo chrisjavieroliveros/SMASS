@@ -8,18 +8,14 @@ input:focus, input:active {
 }
 
 :root {
-  --reverie-color-Primary: #c2171c;
-  --reverie-color-Primary-Tint: #e61d1d;
-  --reverie-color-Primary-Shade: #a21414;
+  --reverie-color-Primary: #595d88;
+  --reverie-color-Primary-Tint: #6c70a3;
+  --reverie-color-Primary-Shade: #4b4f73;
   --reverie-color-Primary-Contrast: #ffffff;
-  --reverie-color-Secondary: #2ba731;
-  --reverie-color-Secondary-Tint: #3fc13f;
-  --reverie-color-Secondary-Shade: #268b26;
-  --reverie-color-Secondary-Contrast: #ffffff;
-  --reverie-color-Tertiary: #f7f7f7;
-  --reverie-color-Tertiary-Tint: #ffffff;
-  --reverie-color-Tertiary-Shade: #ebebeb;
-  --reverie-color-Tertiary-Contrast: #000000;
+  --reverie-color-Secondary: #ffda85;
+  --reverie-color-Secondary-Tint: #ffe29e;
+  --reverie-color-Secondary-Shade: #e6c96b;
+  --reverie-color-Secondary-Contrast: #272727;
   --reverie-color-Danger: #ff0000;
   --reverie-color-Danger-Tint: #ff3333;
   --reverie-color-Danger-Shade: #cc0000;
@@ -322,26 +318,27 @@ h6 {
     Set default global styles for button elements:
     <button></button>, input[type="submit"], btn btn-submit
 */
-.button,
-button {
+.btn {
   cursor: pointer;
 }
-.button:disabled,
-button:disabled, .disabled.button,
-button.disabled {
+.btn:disabled, .disabled.btn {
   cursor: not-allowed;
 }
-.button:active,
-button:active, .button:focus,
-button:focus {
+.btn:active, .btn:focus {
   outline: none;
 }
 
-.button,
-button {
+.btn {
   font-size: 1em;
   padding: 12px 16px;
   border-radius: 3px;
+}
+.btn.btn-primary {
+  background-color: var(--reverie-color-Primary);
+  color: var(--reverie-color-Primary-Contrast);
+}
+.btn.btn-primary:hover {
+  background-color: var(--reverie-color-Primary-Shade);
 }
 
 /* 
