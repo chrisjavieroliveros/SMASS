@@ -3,7 +3,8 @@
     Scalable and Modular Architecture for Sassy CSS
     by Chris Javier Oliveros
 */
-input:focus, input:active {
+input:focus,
+input:active {
   outline: none;
 }
 
@@ -52,6 +53,9 @@ input:focus, input:active {
   --reverie-color-Dark-700: #343434;
   --reverie-color-Dark-800: #222222;
   --reverie-color-Dark-900: #101010;
+
+  --reverie-heading-font: "Poppins", sans-serif;
+  --reverie-body-font: "Open Sans", sans-serif;
 }
 
 *,
@@ -225,7 +229,7 @@ input {
   text-transform: none;
 }
 
-input[type=search] {
+input[type="search"] {
   -webkit-appearance: textfield;
   -moz-appearance: textfield;
   appearance: textfield;
@@ -321,10 +325,12 @@ h6 {
 .btn {
   cursor: pointer;
 }
-.btn:disabled, .disabled.btn {
+.btn:disabled,
+.disabled.btn {
   cursor: not-allowed;
 }
-.btn:active, .btn:focus {
+.btn:active,
+.btn:focus {
   outline: none;
 }
 
