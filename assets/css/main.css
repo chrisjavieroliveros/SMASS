@@ -388,14 +388,6 @@ ol {
     Set default global styles for: 
     Navigation <nav></nav>
 */
-.banner {
-  background-color: getVarColor(Primary);
-  color: getVarColor(White);
-}
-.banner.banner-vr {
-  background-color: getVarColor(Accent);
-}
-
 .global-wrapper {
   width: 100%;
   max-width: 1200px;
