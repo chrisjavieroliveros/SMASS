@@ -3,7 +3,8 @@
     Scalable and Modular Architecture for Sassy CSS
     by Chris Javier Oliveros, Jake Oliveros Chico
 */
-input:focus, input:active {
+input:focus,
+input:active {
   outline: none;
 }
 
@@ -178,7 +179,7 @@ input {
   text-transform: none;
 }
 
-input[type=search] {
+input[type="search"] {
   -webkit-appearance: textfield;
   -moz-appearance: textfield;
   appearance: textfield;
@@ -288,10 +289,12 @@ h6 {
   cursor: pointer;
   display: inline-block;
 }
-.btn:disabled, .disabled.btn {
+.btn:disabled,
+.disabled.btn {
   cursor: not-allowed;
 }
-.btn:active, .btn:focus {
+.btn:active,
+.btn:focus {
   outline: none;
 }
 

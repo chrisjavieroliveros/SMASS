@@ -10,6 +10,11 @@ $colors: (
   "Secondary-Shade": #e6c96b,
   "Secondary-Contrast": #272727,
 
+  "Tertiary": #ff8a5c,
+  "Tertiary-Tint": #ff9e7a,
+  "Tertiary-Shade": #e67a4b,
+  "Tertiary-Contrast": #ffffff,
+
   // Status;
   "Danger": #ff0000,
   "Danger-Tint": #ff3333,
@@ -33,7 +38,7 @@ $colors: (
 
   // Neutrals;
   "Body": #272727,
-  "Text": #272727,
+  "Heading": #272727,
   "White": #ffffff,
 
   // Light;
@@ -59,17 +64,17 @@ $colors: (
   "Dark-900": #101010
 );
 
-$fonts: (
-  "heading": "Arial, sans-serif",
-  "body": "Arial, sans-serif",
-  "heading-weight": 700,
-  "heading-weight-light": 100,
-  "body-weight": 400,
+$font: (
+  "body": "Helvetica, Arial, sans-serif;",
+  "heading": "Helvetica, Arial, sans-serif;",
 );
 
 $typography: (
   "line-height": 1.2,
   "font-size": 16px,
+  "heading-weight": 700,
+  "heading-weight-light": 100,
+  "body-weight": 400,
 );
 
 // -------- Generate all maps in :root -------- //
@@ -80,9 +85,13 @@ $typography: (
     --reverie-color-#{$colorName}: #{"#{$color}"};
   }
 }
-/* Fonts */
+/* Font + Typography */
 :root {
-  @each $fontName, $font in $fonts {
+  @each $fontName, $font in $font {
     --reverie-font-#{$fontName}: #{"#{$font}"};
+  }
+
+  @each $typographyProperty, $typography in $typography {
+    --reverie-typography-#{$typographyProperty}: #{"#{$typography}"};
   }
 }
