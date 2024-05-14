@@ -4,10 +4,12 @@
   --reverie-color-Primary-Tint: #6c70a3;
   --reverie-color-Primary-Shade: #4b4f73;
   --reverie-color-Primary-Contrast: #ffffff;
+
   --reverie-color-Secondary: #ffda85;
   --reverie-color-Secondary-Tint: #ffe29e;
   --reverie-color-Secondary-Shade: #e6c96b;
   --reverie-color-Secondary-Contrast: #272727;
+
   --reverie-color-Tertiary: #ff8a5c;
   --reverie-color-Tertiary-Tint: #ff9e7a;
   --reverie-color-Tertiary-Shade: #e67a4b;
@@ -53,8 +55,8 @@
 
 /* Font + Typography */
 :root {
-  --reverie-font-body: Helvetica, Arial, sans-serif;;
-  --reverie-font-heading: Helvetica, Arial, sans-serif;;
+  --reverie-font-body: Helvetica, Arial, sans-serif;
+  --reverie-font-heading: Helvetica, Arial, sans-serif;
   --reverie-typography-line-height: 1.2;
   --reverie-typography-font-size: 16px;
   --reverie-typography-heading-weight: 700;

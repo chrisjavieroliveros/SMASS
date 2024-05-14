@@ -85,6 +85,7 @@ $typography: (
     --reverie-color-#{$colorName}: #{"#{$color}"};
   }
 }
+
 /* Font + Typography */
 :root {
   @each $fontName, $font in $font {
